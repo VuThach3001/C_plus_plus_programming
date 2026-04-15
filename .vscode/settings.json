@@ -1,5 +1,13 @@
 {
-"[markdown]": {
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "learning/.*",
+                "cmd": "python3 ${workspaceFolder}/scripts/fix_broken_lines.py ${file}"
+            }
+        ]
+    },
+    "[markdown]": {
         "editor.quickSuggestions": {
             "other": "on",
             "comments": "off",
