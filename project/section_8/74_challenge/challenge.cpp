@@ -55,7 +55,7 @@ int main(void){
     dimes = balance / dime_value;
     balance = balance % dime_value;
     nickels = balance / nickel_value;
-    balance = balance % nickel_value;    
+    balance = balance % nickel_value;
 
 
     pennies = balance;
