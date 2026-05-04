@@ -28,11 +28,6 @@
 
 #### 4. Declaring multi-dimensional arrays ![alt text](image-5.png)
 
-#### 5. Multi-dimensional arrays ![alt text](image-6.png)
-
-#### 6. Accessing array elements in multi-dimensional arrays ![alt text](image-7.png)
-
-#### 7. Initializing multi-dimensional arrays ![alt text](image-8.png)
 
 ---
 
