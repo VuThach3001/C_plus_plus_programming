@@ -22,6 +22,7 @@
 - We saw how this is the eﬀect with array, but what about other variable types?
 - We can use reference parameters to tell the compiler to pass in a reference to the actual parameter.
 - The formal parameter will now be an alias for the actual parameter
+- You just pass the variable, and the compiler handles the address for you.
 
 #### Example
 ```cpp
