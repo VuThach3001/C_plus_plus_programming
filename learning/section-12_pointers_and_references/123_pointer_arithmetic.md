@@ -45,6 +45,13 @@ int_ptr += n; or int_ptr = int_ptr + n;
 int_ptr -= n; or int_ptr = int_ptr - n;
 ```
 
+#### Subtracting two pointers
+- Determine the number of elements between the pointers
+- Both pointers must point to the same data type 
+```cpp
+int n = int_ptr2 - int_ptr1;
+```
+
 #### Comparing two pointers `==` and `!=`
 - Determine if two pointers point to the same location
   - does NOT compare the data where they point!
