@@ -43,39 +43,6 @@ Account *frank_account = new Account();
 frank_account->balance;
 frank_account->deposit(1000.00);
 ```
-#### Class Member Access Modiﬁers
-
-- `public`, `private`, and `protected`
-- `public`
-  - accessible everywhere
-```cpp
-class Class_Name
-{
-    public:
-    // declaration(s);
-};
-```
-
-- `private`
-  - accessible only by members or friends of the class
-```cpp
-class Class_Name
-{
-private:
-// declaration(s);
-};
-```
-
-- `protected`
-  - used with inheritance – we’ll talk about it in the next section
-```cpp
-class Class_Name
-{
-    protected:
-    // declaration(s);
-};
-```
-
 
 ---
 
