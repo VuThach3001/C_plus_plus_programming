@@ -25,7 +25,7 @@ public:
     }
     Player(std::string name, int health, int xp) {
         cout << "Three args constructor called"<< endl; 
-    }30012003001
+    }
     ~Player() { 
         cout << "Destructor called for " << name << endl; 
     }
